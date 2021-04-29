@@ -45,7 +45,7 @@
             currentPage: 1,
             zoom: 1
         }
-        pdfjsLib.getDocument("./test.pdf").then((pdf) => {
+        pdfjsLib.getDocument('test.pdf').then((pdf) => {
 
             myState.pdf = pdf;
             render();
