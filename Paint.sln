@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE1C1C00-5B5A-468A-9AEC-1F776538C6EF}"
+	ProjectSection(SolutionItems) = preProject
+		Paint.html = Paint.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{CD5F0A62-7306-466F-85D6-5AF64C41C828}"
+	ProjectSection(SolutionItems) = preProject
+		pdfviewer.js = pdfviewer.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{09E99037-7FAD-4525-93B9-E31D10216878}"
+	ProjectSection(SolutionItems) = preProject
+		style.css = style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD5F0A62-7306-466F-85D6-5AF64C41C828} = {CE1C1C00-5B5A-468A-9AEC-1F776538C6EF}
+		{09E99037-7FAD-4525-93B9-E31D10216878} = {CE1C1C00-5B5A-468A-9AEC-1F776538C6EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C464468B-0417-4416-A5D9-EFACD3B74FAB}
+	EndGlobalSection
+EndGlobal
