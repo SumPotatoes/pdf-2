@@ -45,7 +45,7 @@
             currentPage: 1,
             zoom: 1
         }
-        pdfjsLib.getDocument("https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjqhMe356LwAhUH6Z4KHfpSC6MQFjAAegQIBRAD&url=http%3A%2F%2Fwww.africau.edu%2Fimages%2Fdefault%2Fsample.pdf&usg=AOvVaw1Gt0y2rGQOt7itj5l55f3l").then((pdf) => {
+        pdfjsLib.getDocument("/test.pdf").then((pdf) => {
 
             myState.pdf = pdf;
             render();
